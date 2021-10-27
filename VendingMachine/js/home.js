@@ -137,8 +137,10 @@ function purchaseItem(){
 					//return change
 				},
 				error:function(xhr, status, error){
-					var errorMessage = xhr.responseText;
-					$('#message').attr('value',errorMessage);
+					//var errorMessage = response.message
+					var errorMessageJSON = xhr.responseText;
+					var errorMessageOBJ = JSON.parse(errorMessageJSON);
+					$('#message').attr('value',errorMessageOBJ.message);
 				}
 					});
 			//check running total against the price point
