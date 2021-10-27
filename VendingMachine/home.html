@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Vending Machine</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+	
+	</style>
+	</head>
+    <body>
+        <div class="container text-center">
+            <h1>Vending Machine</h1>
+        </div>
+		<hr>
+		<div class="container">
+		
+			<div class="row m-4">
+				<div class="col-8">
+					<!--Vending Machine Items-->
+					<div class="row" id='vendingMachine'>	
+					</div>
+				</div>
+				<!--Forms-->
+				<div class="col-4">
+					<div class="row  m-4">
+						<form>
+						<div class="col-12 mx-auto text-center">
+						<label>Total $ in</br>
+						</label>
+							<input type="text" 
+							class="form-control w-50 mx-auto"
+							id="totalMoneyAmount"
+							value="0.00" 
+							readonly>
+								<!-- Buttons-->
+							<div class="row">
+							<button type="button" class="btn btn-light shadow p-2 m-3" id="addDollar">Add Dollar</button>
+							<button type="button" class="btn btn-light shadow  p-2 m-3" id="addQuarter">Add Quarter</button>
+							</div>
+							<div class="row">
+							<button type="button" class="btn btn-light shadow  p-2 m-3" id="addDime">Add Dime</button>
+							<button type="button" class="btn btn-light shadow   p-2 m-3" id="addNickel">Add Nickel</button>
+							</div>
+							</div>
+						</form>
+						
+						<hr>
+					</div>
+				
+				<div class="row py-3 m-4">
+					<form>
+					<div class="col mx-auto text-center">
+						<label class="text-center">Messages</br>
+						</label>
+							<input type="text" 
+							class="form-control"
+							id="message"
+							value
+							readonly>
+							</div>
+						<div class='row m-4'>
+							<label>Item:
+							</label>
+							<div class="form-group w-75">
+								<input type="text" 
+								class="form-control"
+								id="itemName"
+								readonly>
+								<button type="button" class="btn btn-light shadow " id="purchaseButton">Make Purchase</button>
+								</div>
+
+						</div>
+					</form>
+					<hr>
+				</div>
+				<div class="row py-3">
+					<div class="col-6 mx-auto text-center">
+					<form>
+					<label>Change</br>
+					</label>
+						<input type="text" 
+						class="form-control"
+						id="totalChange"
+						value
+						readonly>
+						<button class="btn btn-light shadow " id="returnChange">Change Return</button>
+						</div>
+						</div>
+					</form>
+				</div>
+				</div>
+				
+		</div>
+			
+
+			
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/home.js"></script> <!-- custom js file for jQuery -->
+    </body>
+</html>
