@@ -1,0 +1,12 @@
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.dll
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.pdb
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.csproj.CoreCompileInputs.cache
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.dll
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.pdb
+C:\Users\philwilliams\source\repos\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.csprojAssemblyReference.cache
+C:\Users\Christian\Downloads\MVC-SIS\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.dll
+C:\Users\Christian\Downloads\MVC-SIS\MVC-SIS\MVC-SIS_Models\bin\Debug\MVC-SIS_Models.pdb
+C:\Users\Christian\Downloads\MVC-SIS\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.csprojAssemblyReference.cache
+C:\Users\Christian\Downloads\MVC-SIS\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.csproj.CoreCompileInputs.cache
+C:\Users\Christian\Downloads\MVC-SIS\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.dll
+C:\Users\Christian\Downloads\MVC-SIS\MVC-SIS\MVC-SIS_Models\obj\Debug\MVC-SIS_Models.pdb

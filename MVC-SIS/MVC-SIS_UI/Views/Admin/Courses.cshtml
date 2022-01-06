@@ -1,0 +1,38 @@
+﻿@model List<MVC_SIS_Models.Course>
+@{
+    ViewBag.Title = "Courses";
+}
+
+<h2>Courses</h2>
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Majors</h3>
+        @Html.ActionLink("Add Course", "AddCourse", "Admin", null, new { @class = "btn btn-primary" })
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <table class="table table-striped" style="width: auto;">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var course in Model)
+                {
+                    <tr>
+                        <td>@course.CourseId</td>
+                        <td>@course.CourseName</td>
+                        <td>
+                            @Html.ActionLink("Edit", "EditCourse", "Admin", new { id = course.CourseId }, null) |
+                            @Html.ActionLink("Delete", "DeleteCourse", "Admin", new { id = course.CourseId }, null)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
